@@ -1,0 +1,862 @@
+@font-face {
+    font-family: 'notosans';
+    src: url(fonts/Noto_Sans/NotoSans-Black.woff2);
+    src: url(fonts/Noto_Sans/NotoSans-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'notoserif';
+    src: url(fonts/Noto_Serif_Display/static/NotoSerifDisplay-Regular.ttf);
+    src: url(fonts/Noto_Serif_Display/NotoSerifDisplay-Italic-VariableFont_wdth\,wght.ttf)
+}
+
+@font-face {
+    font-family: 'h1';
+    src: url(fonts/Noto_Serif_Display/static/NotoSerifDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'h1span';
+    src: url(fonts/Noto_Sans/NotoSans-Black.woff)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+body {
+    overflow-y: hidden;
+
+}
+
+.blocs {
+
+    font-family: 'notosans';
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bloc0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #132527;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc0 2.5s;
+}
+
+.bloc0-p1 {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bloc0-p2 {
+    background-color: #415e6166;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 5px 6px 5px 6px;
+    margin: 5px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bloc1 {
+    background-image: url(img/Image-1.jpg);
+    background-size: 170%;
+    background-position: center;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc1 3s;
+
+}
+
+.bloc2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5252EC;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc2 3.5s;
+
+}
+
+.bloc2-p1 {
+    background-color: #5252ecae;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    color: white;
+}
+
+.bloc2-p2 {
+    background-color: #6c6cdcae;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 5px 6px 5px 6px;
+    margin: 5px 0px 0px 0px;
+    color: white;
+}
+
+.bloc3 {
+    background-image: url(img/Deklic_Logo_RVB_Couleurs_Fond_Foncé.svg);
+    background-color: #03473C;
+    background-size: 100%;
+    background-position: center;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc3 4s;
+}
+
+.bloc4 {
+    background-image: url(img/Deklic_Logo_RVB_Couleurs_Fond_Foncé.svg);
+    background-color: #03473C;
+    background-size: 100%;
+    background-position: center;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc4 4.5s;
+}
+
+.bloc5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #784F10;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc5 5s;
+}
+
+.bloc5-p1 {
+    width: 60%;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+.bloc5-p2 {
+    background-color: #b3823996;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 5px 6px 5px 6px;
+    margin: 5px 0px 0px 0px;
+    color: white;
+}
+
+.bloc6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #046426;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc6 5.5s;
+}
+
+.bloc6-p1 {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bloc6-p2 {
+    background-color: #268d4ad4;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 5px 6px 5px 6px;
+    margin: 5px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bloc7 {
+    background-image: url(img/Image-3.jpg);
+    background-color: #03473C;
+    background-size: 150%;
+    background-position: center;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc7 6s;
+}
+
+.bloc8 {
+    background-color: #132527;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc8 6.5s;
+}
+
+.bloc9 {
+    background-image: url(img/Image-2.jpg);
+    background-size: 150%;
+    background-position: center;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc9 7s;
+}
+
+.bloc10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4A359D;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc10 7.5s;
+}
+
+.bloc10-p1 {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bloc10-p2 {
+    background-color: #6152a0;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 5px 6px 5px 6px;
+    margin: 5px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bloc-11 {
+    background-image: url(img/Deklic_Logo_RVB_Couleurs_Fond_Foncé.svg);
+    background-color: #03473C;
+    background-size: 100%;
+    background-position: center;
+    height: 234px;
+    width: 302px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    animation: bloc11 8s;
+}
+
+.bloc-a,
+.bloc-b,
+.bloc-c {
+    display: block;
+}
+
+.bloc-a,
+.bloc-c {
+    margin-top: -150px;
+    }
+
+.bloc-b {
+    margin-top: -85px;
+    animation:slideup 25s infinite ;
+    animation-delay: 9s;
+}
+
+.bloc-a{
+    animation: slidedown 25s infinite;
+    animation-delay: 8s;
+}
+.bloc-c{
+    animation: slidedown 25s infinite;
+    animation-delay: 10s;
+}
+
+header {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    position: absolute;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 80%;
+    height: 100%;
+}
+
+.logo {
+    background-image: url(img/Deklic_Logo_RVB_Couleurs_Fond_Foncé.svg);
+    background-color: #000000;
+    background-size: 100%;
+    height: 234px;
+    width: 302px;
+    margin-left: -50px;
+    animation: fadein 1s;
+
+}
+
+h1 {
+    width: 500px;
+    font-family: 'h1';
+    text-transform: uppercase;
+    margin-top: -50px;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: left;
+    animation: fadeinb 1.5s;
+
+}
+
+h1 span {
+    font-family: 'h1span';
+    text-transform: uppercase;
+    margin-top: -50px;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: left;
+}
+
+.header-texte p {
+    margin: 20px 0px;
+    width: 500px;
+    font-family: 'notosans';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    animation: fadeinc 2s;
+
+
+}
+
+.headerp2 p {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'notosans';
+    background-color: #5252EC;
+    color: white;
+    border-radius: 10px;
+    height: 89px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    font-size: 14px;
+    animation: footer 8s;
+
+}
+
+.container{
+display:flex;
+flex-direction: row;
+    font-family: 'notosans';
+    margin-left: auto;
+    width: 300px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.container ul li
+{
+    display: flex;
+    flex-direction: column;
+    margin:0px 15px;
+
+}
+.container ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.btn-footer {
+    display: flex;
+    display: inline;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin: 0px 100px 0px 50px;
+    vertical-align: center;
+    border: none;
+
+}
+
+.mailing {
+    background-color: rgb(255, 255, 255);
+    color: #727272;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    text-align: left;
+    border: none;
+}
+
+.texte {
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+    width: 400px;
+}
+
+
+/*** animations ***/
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinb {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinc {
+    from {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc0 {
+    from {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc1 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc2 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc3 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc4 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc5 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc6 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc7 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc8 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc9 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc10 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bloc11 {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes footer {
+    from {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slidedown {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100px);
+    }
+}
+
+
+@keyframes slideup {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
+}
+@media (max-width:1050px) {
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin:0px;
+    width: 50%;
+    height: 50%;
+
+}
+.logo{
+    margin:0px 0px 0px 0px;
+    width: 50%;
+    height: 50%;
+}
+.blocs {
+
+    font-family: 'notosans';
+}
+}
